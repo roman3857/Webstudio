@@ -1,9 +1,12 @@
+body {
+  font-family: Roboto;
+}
 .WebStudio {
   font-family: Raleway;
 }
 .c {
   color: #212121;
-  font-family: Roboto;
+
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -14,7 +17,7 @@ button {
   background: #f5f4fa;
   color: #212121;
   text-align: center;
-  font-family: Roboto;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -26,7 +29,7 @@ button:hover {
   background: #2196f3;
   color: #fff;
   text-align: center;
-  font-family: Roboto;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -34,59 +37,46 @@ button:hover {
   letter-spacing: 0.48px;
 }
 .c:hover {
-    color: #2196F3;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+  color: #2196f3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
-.info {
+.photo-h3 {
   color: #212121;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 1.08px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
 }
-.pre {
+.ophot-p {
   color: #757575;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
 }
 footer {
-    background-color: #2F303A;;
+  background-color: #2f303a;
 }
-.web {
-    color: #FFF;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-}
+
 address {
-    color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
 }
-.p1 {
-    color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
+.footer-p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
 }
