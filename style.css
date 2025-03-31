@@ -1,6 +1,12 @@
 body {
     font-family: Roboto;
 }
+header {
+  font-family: Roboto;
+}
+footer {
+  font-family: Roboto;
+}
 .WebStudio {
   font-family: Raleway;
 }
