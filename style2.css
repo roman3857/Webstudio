@@ -4,7 +4,7 @@ body {
 .WebStudio {
   font-family: Raleway;
 }
-.c {
+.WebStudi-nav {
   color: #212121;
 
   font-size: 14px;
@@ -36,7 +36,7 @@ button:hover {
   line-height: 26px;
   letter-spacing: 0.48px;
 }
-.c:hover {
+.WebStudi-nav:hover {
   color: #2196f3;
   font-size: 14px;
   font-style: normal;
@@ -44,7 +44,7 @@ button:hover {
   line-height: normal;
   letter-spacing: 0.28px;
 }
-.photo-h3 {
+.photo-title {
   color: #212121;
   font-size: 18px;
   font-style: normal;
@@ -52,7 +52,7 @@ button:hover {
   line-height: 36px;
   letter-spacing: 1.08px;
 }
-.ophot-p {
+.photo-subtitle {
   color: #757575;
   font-size: 16px;
   font-style: normal;
@@ -72,7 +72,7 @@ address {
   line-height: 24px;
   letter-spacing: 0.42px;
 }
-.footer-p {
+.footer-text {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-style: normal;

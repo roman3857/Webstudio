@@ -4,7 +4,7 @@ body {
 .WebStudio {
   font-family: Raleway;
 }
-.nav-a {
+.WebStudi- nav {
   color: #212121;
   font-size: 14px;
   font-style: normal;
@@ -12,7 +12,7 @@ body {
   line-height: normal;
   letter-spacing: 0.28px;
 }
-.nav-a:hover {
+.WebStudi- nav:hover {
   color: #2196f3;
   font-size: 14px;
   font-style: normal;
@@ -46,7 +46,7 @@ body {
   line-height: 30px;
   letter-spacing: 0.96px;
 }
-.info-h3 {
+.info-subtitle {
   color: #212121;
   font-size: 14px;
   font-style: normal;
@@ -55,7 +55,7 @@ body {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-.info-p {
+.info-text {
   color: #757575;
   font-size: 14px;
   font-style: normal;
@@ -63,7 +63,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.42px;
 }
-.hero-h2 {
+.hero-title {
   color: #212121;
   text-align: center;
   font-size: 36px;
@@ -72,7 +72,7 @@ body {
   line-height: normal;
   letter-spacing: 1.08px;
 }
-.hero-team {
+.hero-subtitle {
   color: #212121;
   text-align: center;
   font-size: 16px;
@@ -81,7 +81,7 @@ body {
   line-height: normal;
   letter-spacing: 0.48px;
 }
-.hero-subject {
+.hero-content {
   color: #757575;
   text-align: center;
   font-size: 16px;
@@ -102,11 +102,11 @@ address {
   line-height: 24px;
   letter-spacing: 0.42px;
 }
-.footer-p {
+.footer-text {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 171.429% */
+  line-height: 24px;
   letter-spacing: 0.42px;
 }
