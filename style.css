@@ -10,7 +10,7 @@ footer {
 .WebStudio {
   font-family: Raleway;
 }
-.WebStudi-nav {
+.header-link {
   color: #212121;
   font-size: 14px;
   font-style: normal;
@@ -18,7 +18,7 @@ footer {
   line-height: normal;
   letter-spacing: 0.28px;
 }
-.WebStudio-nav:hover {
+.header-link:hover {
   color: #2196f3;
   font-size: 14px;
   font-style: normal;
@@ -40,7 +40,7 @@ footer {
   text-transform: uppercase;
 }
 
-.button {
+.bisnes-button {
   border-radius: 4px;
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
