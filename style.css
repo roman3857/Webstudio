@@ -158,6 +158,16 @@ span {
   line-height: normal;
   letter-spacing: 0.48px;
 }
+.team-role {
+  color: #757575;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+}
 
 footer {
   background-color: #2f303a;
