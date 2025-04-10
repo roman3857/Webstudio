@@ -87,7 +87,9 @@ address {
   letter-spacing: 0.42px;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
-  padding: 12px;
+  padding-left: 15;
+  padding-right: 15;
 }
+
