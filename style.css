@@ -10,6 +10,25 @@ footer {
 .WebStudio {
   font-family: Raleway;
 }
+.header-title {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+span {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
 .header-link {
   color: #212121;
   font-size: 14px;
@@ -26,8 +45,23 @@ footer {
   line-height: normal;
   letter-spacing: 0.28px;
 }
+.bisnes-title {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
 .bisnes {
   background: #2f303a;
+  width: 1600px;
+  height: 600px;
+  flex-shrink: 0;
+  margin: 0 auto;
 }
 .bisnes-h1 {
   color: #fff;
@@ -51,6 +85,7 @@ footer {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+  
 }
 .info-subtitle {
   color: #212121;
