@@ -85,7 +85,6 @@ span {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
-
 }
 .info-subtitle {
   color: #212121;
@@ -175,7 +174,6 @@ footer {
   height: 252px;
   flex-shrink: 0;
   margin: 0 auto;
-
 }
 
 address {
