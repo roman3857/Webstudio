@@ -23,28 +23,28 @@
     <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="container header-container">
         <h2 class="header-title">Web<span>Studio</span></h2>
         <nav class="header-nav">
           <ul class="header-list">
             <li class="header-item">
-              <a href="./index.html" class="WebStudi-nav">Студія </a>
+              <a href="./index.html" class="header-link">Студія</a>
             </li>
             <li class="header-item">
-              <a href="./index2.html" class="WebStudi-nav">Портфоліо</a>
+              <a href="./index2.html" class="header-link">Портфоліо</a>
             </li>
             <li class="header-item">
-              <a href="@" class="WebStudi-nav">Контакти</a>
+              <a href="@" class="header-link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-list2">
-          <li class="header-item2">
-            <a href="@" class="WebStudi-nav">info@devstudio.com</a>
+        <ul class="header-contact-list">
+          <li class="header-contact-item">
+            <a href="@" class="header-email">info@devstudio.com</a>
           </li>
-          <li class="header-item2">
-            <a href="@">+38 096 111 11 11</a>
+          <li class="header-contact-item">
+            <a href="@" class="header-phone">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -53,16 +53,30 @@
       <!-- photo -->
       <section class="photo">
         <div class="container">
-          <button type="button" class="button">усі</button>
-          <button type="button" class="button">Веб-сайти</button>
-          <button type="button" class="button">Додатки</button>
-          <button type="button" class="button">Дизайн</button>
-          <button type="button" class="button">Маркетинг</button>
+          <ul class="button-list">
+            <li class="button-item">
+              <button type="button" class="button button1">усі</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button button2">Веб-сайти</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button button3">Додатки</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button button4">Дизайн</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="button button5">Маркетинг</button>
+            </li>
+          </ul>
 
-          <img src="./photo/img(12)(1).webp" alt="усі" />
-          <h3 class="photo-title">Технокряк</h3>
-          <p class="photo-p">Веб-сайт</p>
           <ul class="photo-list">
+            <li class="photo-item">
+              <img src="./photo/img(12)(1).webp" alt="усі" />
+              <h3 class="photo-title">Технокряк</h3>
+              <p class="photo-p">Веб-сайт</p>
+            </li>
             <li class="photo-item">
               <img src="./photo/img(13).webp" alt="усі" />
               <h3 class="photo-title">Постер New Orlean vs Golden Star</h3>
@@ -116,13 +130,13 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <h3 class="footer-title">Web<span class="footer-span">Studio</span></h3>
         <address class="footer-address">
           м. Київ, пр-т Лесі Українки, 26
         </address>
-        <p class="footer-text">info@devstudio.com</p>
-        <p class="footer-text">+38 096 111 11 11</p>
+        <p class="footer-email">info@devstudio.com</p>
+        <p class="footer-phone">+38 096 111 11 11</p>
       </div>
     </footer>
   </body>
