@@ -14,6 +14,11 @@ footer {
   display: flex;
 }
 
+.header {
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
 .header-title {
   color: #2196f3;
   font-family: Raleway;
@@ -23,8 +28,6 @@ footer {
   line-height: normal;
   letter-spacing: 0.78px;
   margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 span {
   color: #000;
@@ -110,15 +113,14 @@ span {
   line-height: 60px;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  margin-top: 200px;
   margin-left: 237px;
   margin-right: 237px;
 }
 
 .bisnes {
   background: #2f303a;
-  width: 1600px;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   flex-shrink: 0;
   display: flex;
   margin: 0 auto;
@@ -142,6 +144,10 @@ span {
   margin-right: auto;
   margin-top: 30px;
 }
+.info {
+  padding-bottom: 94;
+}
+
 .info-list {
   display: flex;
   margin-top: 94px;
@@ -157,6 +163,7 @@ span {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .info-text {
   color: #757575;
@@ -166,6 +173,11 @@ span {
   line-height: 24px;
   letter-spacing: 0.42px;
 }
+
+.hero {
+  padding-top: 94px;
+  padding-bottom: 94;
+}
 .hero-title {
   color: #212121;
   text-align: center;
@@ -174,21 +186,24 @@ span {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 .hero-gallery {
   display: flex;
+  gap: 30px;
 }
 .hero-item {
   width: 370px;
   height: 294px;
   flex-shrink: 0;
-  margin-right: 30px;
-  margin-bottom: 94px;
+}
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-list {
   display: flex;
+  gap: 30px;
 }
 .team-member {
   width: 270px;
@@ -196,7 +211,6 @@ span {
   flex-shrink: 0;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
-  margin-bottom: 94px;
 }
 
 .team-title {
@@ -242,9 +256,10 @@ footer {
   height: 252px;
   flex-shrink: 0;
   margin: 0 auto;
+  padding-top: 94px;
 }
 
-address {
+.footer-address {
   color: #fff;
   font-size: 14px;
   font-style: normal;
@@ -277,7 +292,7 @@ address {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
-  padding-top: 60px;
+
   margin-bottom: 20px;
 }
 .footer-email {
@@ -291,6 +306,8 @@ address {
   width: 136px;
   height: 21px;
   flex-shrink: 0;
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 .footer-phone {
   color: rgba(255, 255, 255, 0.6);
