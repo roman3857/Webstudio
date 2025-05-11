@@ -151,9 +151,16 @@ span {
 .info-list {
   display: flex;
   margin-top: 94px;
+  width: 1170px;
+  height: 248px;
 }
 .info-item {
   margin-right: 30px;
+}
+.info-item::before {
+  background-image: url(./image/Group\ 1\ \(1\).webp);
+  background-position: top;
+  background-size: 300px 150px;
 }
 .info-subtitle {
   color: #212121;
