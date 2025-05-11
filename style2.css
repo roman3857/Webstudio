@@ -162,6 +162,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  flex-basis: calc((100% - 20px) / 3);
 }
 .photo {
   padding-top: 94px;
