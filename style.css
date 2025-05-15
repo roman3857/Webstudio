@@ -71,7 +71,7 @@ span {
 }
 .header-email {
   margin-right: 50px;
-  color: #212121;
+  color: #757575;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -80,14 +80,7 @@ span {
   letter-spacing: 0.28px;
 }
 .header-email:hover {
-  margin-right: 50px;
   color: #2196f3;
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
 }
 .header-phone {
   color: #757575;
@@ -97,6 +90,9 @@ span {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+}
+.header-phone:hover {
+  color: #2196f3;
 }
 .bisnes .container {
   display: flex;
@@ -124,6 +120,7 @@ span {
   flex-shrink: 0;
   display: flex;
   margin: 0 auto;
+  background-image: url(./image/);
 }
 
 .bisnes-button {
@@ -144,9 +141,6 @@ span {
   margin-right: auto;
   margin-top: 30px;
 }
-.info {
-  padding-bottom: 94;
-}
 
 .info-list {
   display: flex;
@@ -156,11 +150,52 @@ span {
 }
 .info-item {
   margin-right: 30px;
+  display: block;
+  gap: 30px;
 }
-.info-item::before {
-  background-image: url(./image/Group\ 1\ \(1\).webp);
-  background-position: top;
-  background-size: 300px 150px;
+.info-item1::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(./photo/antenna\ 1\ \(1\).webp);
+  background-position: center;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-color: #F5F4FA;
+}
+.info-item2::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(./photo/clock\ 1.webp);
+  background-position: center;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-color: #F5F4FA;
+}
+.info-item3::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(./photo/diagram\ 1.webp);
+  background-position: center;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-color: #F5F4FA;
+}
+.info-item4::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(./photo/astronaut\ 1.webp);
+  background-position: center;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-color: #F5F4FA;
 }
 .info-subtitle {
   color: #212121;
@@ -171,6 +206,7 @@ span {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 .info-text {
   color: #757575;
