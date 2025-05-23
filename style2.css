@@ -15,9 +15,9 @@ footer {
 }
 
 .header {
-  margin-top: 24px;
-  margin-bottom: 25px;
-  border-bottom: gray;
+  padding-top: 32px;
+  border-bottom: solid gray;
+  padding-bottom: 32px;
 }
 
 .header-title {
