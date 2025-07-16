@@ -258,7 +258,7 @@ span {
 }
 .team-member {
   width: 270px;
-  height: 368px;
+  height: 428px;
   flex-shrink: 0;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
@@ -301,6 +301,28 @@ span {
   line-height: normal;
   letter-spacing: 0.48px;
   margin-bottom: 30px;
+}
+
+.team-member-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-left: 44px;
+}
+
+.team-icon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.team-icon:hover {
+  background-color:#2196F3;
+}
+
+.team-member-icon:hover {
+  background-color: #2196f3;
 }
 
 footer {
