@@ -34,7 +34,7 @@ footer {
 
 .header {
   padding-top: 32px;
-  border-bottom: solid gray;
+    border-bottom: solid 1px #ececec;
   padding-bottom: 32px;
 }
 
