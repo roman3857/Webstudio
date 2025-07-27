@@ -41,13 +41,17 @@
           </ul>
         </nav>
         <ul class="header-list2">
-          <li class="header-item2">
+          <li class="header-item2" data-modal-open>
+            
             <a
               class="header-mail header-contact"
               href="mailto:info@devstudio.com"
             >
               <svg class="header-mail-icon">
-                <use href="./image/symboldefts.svg#icon-mail"></use>
+                <use
+                  href="./image/symboldefts.svg#icon-mail"
+                  
+                ></use>
               </svg>
               info@devstudio.com
             </a>
@@ -62,8 +66,26 @@
           </li>
         </ul>
       </div>
-      <div class="header-modal is-hidden">
-        
+      <div class="header-modal is-hidden" data-modal>
+          <div class="modal">
+            <svg>
+              <use class="close"
+                href="./image/symbol-defs(2).svg#icon-close"
+                data-modal-close 
+              ></use>
+            </svg>
+            <form class="modalrm-form">
+              <label for="">
+                <input type="text" name="Ім'я" placeholder=""/>
+              </label>
+              <label for="">
+                <input type="tel" name="Телефон"/>
+              </label>
+              <label for="">
+                <input type="email" name="Пошта"/>
+              </label>
+            </form>
+          </div>
       </div>
     </header>
     <!-- section bisnes -->
@@ -131,7 +153,7 @@
               src="./image/photo10.webp"
               alt="чим ми займаємось"
             />
-            <p class="hero-bg">Десктопні додатки</p>
+            <p class="hero-bg">Мобільні додатки</p>
           </li>
           <li class="hero-item">
             <img
@@ -139,7 +161,7 @@
               src="./image/photo11.webp"
               alt="чим ми займаємось"
             />
-            <p class="hero-bg">Десктопні додатки</p>
+            <p class="hero-bg">Дизайнерські рішення</p>
           </li>
         </ul>
       </div>
@@ -409,5 +431,6 @@
         </ul>
       </div>
     </footer>
+      <script src="./modal.js"></script>
   </body>
 </html>
