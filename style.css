@@ -34,7 +34,7 @@ footer {
 
 .header {
   padding-top: 32px;
-    border-bottom: solid 1px #ececec;
+  border-bottom: solid 1px #ececec;
   padding-bottom: 32px;
 }
 
@@ -273,6 +273,7 @@ span {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .hero-title {
   color: #212121;
   text-align: center;
@@ -283,6 +284,13 @@ span {
   letter-spacing: 1.08px;
   margin-bottom: 50px;
 }
+.hero-photo {
+  width: 370px;
+  height: 294px;
+  flex-shrink: 0;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
 .hero-gallery {
   display: flex;
   gap: 30px;
@@ -291,6 +299,43 @@ span {
   width: 370px;
   height: 294px;
   flex-shrink: 0;
+  position: relative;
+}
+
+.hero-bg-item {
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+.hero-item > .hero-bg {
+  position: absolute;
+  top: 224px;
+  right: 0;
+  margin: 0;
+    padding: 27px 107px;
+  border-bottom-left-radius: 4px;
+}
+
+.hero-bg {
+  background: rgba(47, 48, 58, 0.8);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.hero-photo-bg {
+  width: 370px;
+  height: 70px;
+  flex-shrink: 0;
+  background: rgba(47, 48, 58, 0.8);
 }
 .team {
   padding-top: 94px;
@@ -481,7 +526,7 @@ span {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: 0.42px;
   width: 231px;
   height: 21px;
