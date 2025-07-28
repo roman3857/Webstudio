@@ -318,9 +318,7 @@ span {
   flex-shrink: 0;
 }
 
-.is-hidden {
-  display: none;
-}
+
 
 .header-modal {
   background: rgba(0, 0, 0, 0.2);
@@ -332,6 +330,10 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.is-hidden {
+  display: none;
 }
 
 .hero-bg-item {
