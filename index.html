@@ -41,17 +41,13 @@
           </ul>
         </nav>
         <ul class="header-list2">
-          <li class="header-item2" >
-            
+          <li class="header-item2">
             <a
               class="header-mail header-contact"
               href="mailto:info@devstudio.com"
             >
               <svg class="header-mail-icon">
-                <use
-                  href="./image/symboldefts.svg#icon-mail"
-                  
-                ></use>
+                <use href="./image/symboldefts.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
             </a>
@@ -67,31 +63,38 @@
         </ul>
       </div>
       <div class="header-modal is-hidden" data-modal>
-          <div class="modal">
-            <button class="close" type="button">
-              <svg>
-                <use href="./image/symbol-defs(2).svg#icon-close" data-modal-close></use>
+        <div class="modal">
+          <button class="close" type="button">
+            <div class="close-icon-item">
+              <svg class="close-icon">
+                <use
+                  href="./image/symbol-defs(2).svg#icon-close"
+                  data-modal-close
+                ></use>
               </svg>
-            </button>
-            <form class="modalrm-form">
-              <label for="">
-                <input type="text" name="Ім'я" placeholder=""/>
-              </label>
-              <label for="">
-                <input type="tel" name="Телефон"/>
-              </label>
-              <label for="">
-                <input type="email" name="Пошта"/>
-              </label>
-            </form>
-          </div>
+            </div>
+          </button>
+          <form class="modalrm-form">
+            <label for="">
+              <input type="text" name="Ім'я" placeholder="" />
+            </label>
+            <label for="">
+              <input type="tel" name="Телефон" />
+            </label>
+            <label for="">
+              <input type="email" name="Пошта" />
+            </label>
+          </form>
+        </div>
       </div>
     </header>
     <!-- section bisnes -->
     <section class="bisnes">
       <div class="container">
         <h1 class="bisnes-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="bisnes-button" data-modal-open>Замовити послугу</button>
+        <button type="button" class="bisnes-button" data-modal-open>
+          Замовити послугу
+        </button>
       </div>
     </section>
 
@@ -430,6 +433,6 @@
         </ul>
       </div>
     </footer>
-      <script type="module" src="./modal.js"></script>
+    <script type="module" src="./modal.js"></script>
   </body>
 </html>
