@@ -342,6 +342,116 @@ span {
   position: relative;
 }
 
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  background: #f9f9f9;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  fill: #666;
+  flex-shrink: 0;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+  padding: 8px 0;
+  background: transparent;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.checkbox-group {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.checkbox-group a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.checkbox-group a:hover {
+  text-decoration: underline;
+}
+
+.button-submit {
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #188CE8;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+}
+
+.button-submit:hover {
+  background: #0056b3;
+}
+
+.modal-title {
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-top: 40px;
+margin-left: 40px;
+margin-right: 40px;
+}
+
 .header-modal {
   background: rgba(0, 0, 0, 0.2);
   position: fixed;
