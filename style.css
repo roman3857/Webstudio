@@ -340,6 +340,18 @@ span {
   height: 581px;
   flex-shrink: 0;
   position: relative;
+  margin-left: 41px;
+  margin-right: 39px;
+}
+
+.name {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
 }
 
 .form-container {
@@ -348,19 +360,34 @@ span {
   padding: 20px;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
   text-align: center;
+  display: flex;
   font-size: 18px;
   margin-bottom: 20px;
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
 }
 
 label {
   display: block;
   margin-top: 10px;
   font-weight: bold;
+}
+
+.icon:hover {
+  fill: #2196f3;
+  width: 18px;
+  height: 18px;
 }
 
 .input-group {
@@ -370,7 +397,15 @@ label {
   border-radius: 6px;
   padding: 5px 10px;
   margin-top: 5px;
-  background: #f9f9f9;
+}
+
+.input-group:hover {
+  border: 1px solid #2196f3;
+}
+
+.form {
+  margin-left: 41px;
+  margin-right: 39px;
 }
 
 .icon {
@@ -404,8 +439,12 @@ textarea {
 }
 
 .checkbox-group {
+  display: flex;
+  align-items: center;
   margin-top: 15px;
   font-size: 13px;
+  display: flex;
+  gap: 7px;
 }
 
 .checkbox-group a {
@@ -418,38 +457,37 @@ textarea {
 }
 
 .button-submit {
-width: 200px;
-height: 50px;
-flex-shrink: 0;
-border-radius: 4px;
-background: #188CE8;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0.96px;
-}
-
-.button-submit:hover {
-  background: #0056b3;
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #188ce8;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  margin-top: 30px;
+  margin-left: 124px;
+  margin-right: 130px;
 }
 
 .modal-title {
-color: #212121;
-text-align: center;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.6px;
-margin-top: 40px;
-margin-left: 40px;
-margin-right: 40px;
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .header-modal {
