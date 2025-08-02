@@ -67,6 +67,23 @@ span {
   align-items: center;
 }
 
+.header-link::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  display: none;
+  bottom: 28px;
+  left: 0;
+  background: #2196f3;
+  position: absolute;
+}
+
+.header-link::after:hover {
+  display: block;
+}
+
 .header-link {
   color: #212121;
   font-size: 14px;
@@ -74,6 +91,7 @@ span {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  position: relative;
 }
 .header-link:hover {
   color: #2196f3;
@@ -83,6 +101,94 @@ span {
   line-height: normal;
   letter-spacing: 0.28px;
 }
+
+.header-link::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  display: none;
+  bottom: -44px;
+  left: 0;
+  background: #2196f3;
+  position: absolute;
+}
+
+.header-link:hover::after {
+  display: block;
+}
+
+.header-link2 {
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  position: relative;
+}
+.header-link2:hover {
+  color: #2196f3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-link2::after {
+  content: "";
+  width: 72px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  display: none;
+  bottom: -44px;
+  left: 0;
+  background: #2196f3;
+  position: absolute;
+}
+
+.header-link2:hover::after {
+  display: block;
+}
+
+.header-link3 {
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  position: relative;
+}
+.header-link3:hover {
+  color: #2196f3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-link3::after {
+  content: "";
+  width: 64px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  display: none;
+  bottom: -44px;
+  left: 0;
+  background: #2196f3;
+  position: absolute;
+}
+
+.header-link3:hover::after {
+  display: block;
+}
+
 .header-contact-list {
   display: flex;
   margin-left: 344px;
@@ -150,7 +256,7 @@ button {
   background: #f5f4fa;
   color: #212121;
   text-align: center;
-    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
   width: 125px;
   height: 38px;
@@ -215,6 +321,39 @@ button:hover {
   line-height: normal;
   letter-spacing: 0.28px;
 }
+
+.photo-item:hover .overlay-box {
+  transform: translatey(0);
+}
+
+.photo-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.54px;
+  margin-top: 64px;
+  margin-left: 24px;
+}
+
+.overlay-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.9);
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+}
+
 .photo-list {
   display: flex;
   flex-wrap: wrap;

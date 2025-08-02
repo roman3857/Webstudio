@@ -74,6 +74,7 @@ span {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  position: relative;
 }
 .header-link:hover {
   color: #2196f3;
@@ -82,6 +83,93 @@ span {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+}
+
+.header-link::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  display: none;
+  bottom: -44px;
+  left: 0;
+  background: #2196f3;
+  position: absolute;
+}
+
+.header-link:hover::after {
+  display: block;
+}
+
+.header-link2 {
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  position: relative;
+}
+.header-link2:hover {
+  color: #2196f3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-link2::after {
+  content: "";
+  width: 72px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  display: none;
+  bottom: -44px;
+  left: 0;
+  background: #2196f3;
+  position: absolute;
+}
+
+.header-link2:hover::after {
+  display: block;
+}
+
+.header-link3 {
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  position: relative;
+}
+.header-link3:hover {
+  color: #2196f3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-link3::after {
+  content: "";
+  width: 64px;
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  display: none;
+  bottom: -44px;
+  left: 0;
+  background: #2196f3;
+  position: absolute;
+}
+
+.header-link3:hover::after {
+  display: block;
 }
 .header-contact-list {
   display: flex;
@@ -377,7 +465,6 @@ h2 {
   line-height: normal;
   letter-spacing: 0.6px;
 }
-
 
 label {
   display: block;
