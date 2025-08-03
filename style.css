@@ -9,6 +9,12 @@
   --bg-color3: #fff;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto;
 }
@@ -73,24 +79,12 @@ span {
   align-items: center;
 }
 
-.header-link::after {
-  content: "";
-  width: 48px;
-  height: 4px;
-  flex-shrink: 0;
-  border-radius: 2px;
-  display: none;
-  bottom: 28px;
-  left: 0;
-  background: #2196f3;
-  position: absolute;
-}
-
-.header-link::after:hover {
+.header-link:hover::after {
   display: block;
 }
 
 .header-link {
+  display: inline-block;
   color: #212121;
   font-size: 14px;
   font-style: normal;
@@ -98,7 +92,13 @@ span {
   line-height: normal;
   letter-spacing: 0.28px;
   position: relative;
+  transform: scale(1);
+  transition-property: color, background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
+
 .header-link:hover {
   color: #2196f3;
   font-size: 14px;
@@ -106,6 +106,7 @@ span {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transform: scale(1.15);
 }
 
 .header-link::after {
@@ -123,6 +124,7 @@ span {
 
 .header-link:hover::after {
   display: block;
+  animation: spin 2s infinite;
 }
 
 .header-link2 {
@@ -133,6 +135,12 @@ span {
   line-height: normal;
   letter-spacing: 0.28px;
   position: relative;
+  transform: scale(1);
+  transition-property: color, background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  display: inline-block;
 }
 .header-link2:hover {
   color: #2196f3;
@@ -141,6 +149,7 @@ span {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transform: scale(1.15);
 }
 
 .header-link2::after {
@@ -158,6 +167,7 @@ span {
 
 .header-link2:hover::after {
   display: block;
+  animation: spin 2s infinite;
 }
 
 .header-link3 {
@@ -168,6 +178,12 @@ span {
   line-height: normal;
   letter-spacing: 0.28px;
   position: relative;
+  transform: scale(1);
+  transition-property: color, background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  display: inline-block;
 }
 .header-link3:hover {
   color: #2196f3;
@@ -176,6 +192,16 @@ span {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transform: scale(1.15);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .header-link3::after {
@@ -192,7 +218,8 @@ span {
 }
 
 .header-link3:hover::after {
-  display: block;
+  display: inline-block;
+  animation: spin 2s infinite;
 }
 
 .header-contact-list {
@@ -225,11 +252,18 @@ span {
   margin-right: 50px;
   display: flex;
   align-items: center;
+  transform: scale(1);
+  transition-property: color, background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  display: inline-block;
 }
 
 .header-mail:hover,
 .header-mail:focus {
   color: #2196f3;
+  transform: scale(1.15);
 }
 
 .header-tel-icon {
@@ -247,9 +281,16 @@ span {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  transform: scale(1);
+  transition-property: color, background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  display: inline-block;
 }
 .header-tel:hover {
   color: #2196f3;
+  transform: scale(1.15);
 }
 
 .button-list {
@@ -258,67 +299,7 @@ span {
   margin-right: 297px;
   margin-bottom: 50px;
 }
-button {
-  background: #f5f4fa;
-  color: #212121;
-  text-align: center;
-  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-  width: 125px;
-  height: 38px;
-  flex-shrink: 0;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0.48px;
-  margin-right: 8px;
-}
 
-.button1 {
-  width: 73px;
-  height: 38px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: #f5f4fa;
-}
-.button2 {
-  border-radius: 4px;
-  background: #f5f4fa;
-}
-
-.button3 {
-  width: 112px;
-  height: 38px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: #f5f4fa;
-}
-.button4 {
-  width: 103px;
-  height: 38px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: #f5f4fa;
-}
-.button5 {
-  width: 130px;
-  height: 38px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: #f5f4fa;
-}
-button:hover {
-  background: #2196f3;
-  color: #fff;
-  text-align: center;
-
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0.48px;
-}
 .WebStudi-nav:hover {
   color: #2196f3;
   font-size: 14px;
@@ -584,6 +565,16 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  transform: rotate(0);
+  transition-property: color, background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  display: inline-block;
+}
+
+.bisnes-button:hover {
+  transform: rotate(50deg);
 }
 
 .info-list {
@@ -828,6 +819,12 @@ textarea {
 .team-icon {
   width: 20px;
   height: 20px;
+  transform: rotate(0);
+  transition-property: color, background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  display: inline-block;
 }
 
 .team-list2 {
@@ -852,6 +849,7 @@ textarea {
 .team-link2:hover,
 .team-link2:focus {
   background-color: #2196f3;
+  transform: rotate(180deg);
 }
 
 .team-link2:hover,
@@ -859,6 +857,7 @@ textarea {
 .team-link2:focus,
 .team-icon:focus {
   fill: #ffffff;
+  transform: rotate(180deg);
 }
 
 .team-name {
@@ -928,6 +927,12 @@ textarea {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+  transform: rotate(0);
+  transition-property: color, background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  display: inline-block;
 }
 
 .customers-list {
@@ -946,12 +951,12 @@ textarea {
   padding-bottom: 16px;
   padding-right: 32px;
   padding-top: 16px;
+  transform: rotate(180deg);
 }
 
 .customers-icon:hover {
-  width: 106px;
-  height: 60px;
   fill: #2196f3;
+  transform: rotate(180deg);
 }
 
 .footer {
@@ -1050,7 +1055,18 @@ textarea {
   width: 20px;
   height: 20px;
   fill: var(--title-color);
+  transform: rotate(0);
+  transition-property: color, background-color, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  display: inline-block;
 }
+
+.footer-icon:hover {
+  transform: rotate(180deg);
+}
+
 
 .footer-list3 {
   display: flex;
