@@ -370,20 +370,6 @@ span {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  text-align: center;
-  display: flex;
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: #212121;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.6px;
-}
 
 label {
   display: block;
@@ -507,6 +493,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .is-hidden {
@@ -890,7 +877,7 @@ textarea {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .customers {
