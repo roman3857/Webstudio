@@ -530,7 +530,7 @@ textarea {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("./image/photo22.webp");
+    url("../image/photo22.webp");
 }
 
 .bisnes-button {
@@ -578,7 +578,7 @@ textarea {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url(./photo/antenna1.1.webp);
+  background-image: url(../photo/antenna1.1.webp);
   background-position: center;
   background-size: 70px 70px;
   background-repeat: no-repeat;
@@ -589,7 +589,7 @@ textarea {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url(./photo/clock1.webp);
+  background-image: url(../photo/clock1.webp);
   background-position: center;
   background-size: 70px 70px;
   background-repeat: no-repeat;
@@ -600,7 +600,7 @@ textarea {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url(./photo/diagram1.webp);
+  background-image: url(../photo/diagram1.webp);
   background-position: center;
   background-size: 70px 70px;
   background-repeat: no-repeat;
@@ -611,7 +611,7 @@ textarea {
   display: block;
   width: 270px;
   height: 120px;
-  background-image: url(./photo/astronaut1.webp);
+  background-image: url(../photo/astronaut1.webp);
   background-position: center;
   background-size: 70px 70px;
   background-repeat: no-repeat;
